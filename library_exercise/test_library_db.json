@@ -1,0 +1,32 @@
+{
+  "books": {
+    "unknown_isbn": {
+      "title": "Star Wars",
+      "author": "Alan Dean Foster",
+      "isbn": "unknown_isbn",
+      "checked_out": true,
+      "checked_out_by": 1
+    },
+    "1138": {
+      "title": "Star Wars",
+      "author": "George Lucas",
+      "isbn": "1138",
+      "checked_out": false,
+      "checked_out_by": null
+    }
+  },
+  "users": {
+    "1": {
+      "name": "Ally",
+      "user_id": 1,
+      "borrowed_books": [
+        "unknown_isbn"
+      ]
+    },
+    "2": {
+      "name": "Bert",
+      "user_id": 2,
+      "borrowed_books": []
+    }
+  }
+}

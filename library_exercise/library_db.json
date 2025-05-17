@@ -1,0 +1,32 @@
+{
+  "books": {
+    "1234567890": {
+      "title": "1984",
+      "author": "George Orwell",
+      "isbn": "1234567890",
+      "checked_out": true,
+      "checked_out_by": 2
+    },
+    "0987654321": {
+      "title": "Brave New World",
+      "author": "Aldous Huxley",
+      "isbn": "0987654321",
+      "checked_out": false,
+      "checked_out_by": null
+    }
+  },
+  "users": {
+    "1": {
+      "name": "Alice",
+      "user_id": 1,
+      "borrowed_books": []
+    },
+    "2": {
+      "name": "Bob",
+      "user_id": 2,
+      "borrowed_books": [
+        "1234567890"
+      ]
+    }
+  }
+}
