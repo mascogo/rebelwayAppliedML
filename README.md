@@ -7,9 +7,10 @@ Houdini project contain just two folders:
 - hda
 
 hip file inside of houdini folder.
-scripts:
-a_start.py
-- the given a_star algorythm
 
-a_star_run.py
-- the code to be set in the script part of the HDA
+## scripts:
+- a_start.py
+-- the given a_star algorythm
+
+- a_star_run.py
+-- the code to be set in the script part of the HDA
